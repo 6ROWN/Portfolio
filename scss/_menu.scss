@@ -88,6 +88,10 @@
                 transform: translate3d(0,0,0);
             }
 
+            &.current a {
+                color: $secondary-color;
+            }
+
             .nav-links{
                 display: inline-block;
                 position: relative;
@@ -104,9 +108,7 @@
 
             }
 
-            &:nth-child(1) a{
-                color: $secondary-color;
-            }
+            
 
 
         }
