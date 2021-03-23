@@ -9,6 +9,10 @@
     padding: 0;
 }
 
+li{
+    list-style-type: none
+}
+
 body{
     @include background;
     background-color: $primary-color;
