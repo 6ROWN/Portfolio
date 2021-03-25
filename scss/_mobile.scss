@@ -17,6 +17,11 @@
 
 //Tablets screen
 @include mediaMd{
+    #bg-img{
+        height: 100vh;
+        overflow: hidden;
+    }
+
     main{
         align-items: center;
         text-align: center;
@@ -53,7 +58,6 @@
             width: 150px;
             height: 150px;
         }
-
     }
 
     .projects{
@@ -65,8 +69,14 @@
 
 //smartphones screen
 @include mediaSm{
+
     main#home h1{
         margin-top: 10vh;
+    }
+    //skills
+    main#about .skills-info{
+        display: grid;
+        grid-template-columns: 1fr;
     }
 
     //about-info
@@ -83,6 +93,5 @@
     .projects{
         grid-template-columns: 1fr;
     }
-
-
+    
 }
